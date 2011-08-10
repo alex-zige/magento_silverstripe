@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+         <modules>
+                <Nova_SSMenu>
+                        <active>true</active>
+                        <codePool>local</codePool>
+                </Nova_SSMenu>
+         </modules>
+</config>

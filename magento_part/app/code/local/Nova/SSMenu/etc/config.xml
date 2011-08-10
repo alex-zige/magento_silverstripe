@@ -1,0 +1,40 @@
+<config>    
+
+    <modules>
+    	
+        <Nova_SSMenu>
+        	
+            <version>0.1.0</version>
+			
+        </Nova_SSMenu>
+		
+    </modules>
+	
+	<global>
+        <events>
+            <controller_front_init_routers>
+                <observers>
+                    <nova_ssmenu_model_observer>
+                        <type>singleton</type>                          
+                        <class>Nova_SSMenu_Model_Observer</class>
+                        <method>checkForConfigRequest</method>
+                    </nova_ssmenu_model_observer>
+                </observers>
+            </controller_front_init_routers>
+        </events>
+			
+		 <blocks>
+		 	
+            <Nova_SSMenu>
+            	
+            	<class>Nova_SSMenu_Block</class>
+				
+			</Nova_SSMenu>
+			
+        </blocks>
+		
+		
+    </global>
+	
+</config>
+

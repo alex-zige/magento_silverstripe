@@ -1,0 +1,8 @@
+
+<div class="nav-container">
+<ul id="nav">
+<?php foreach($this->menuItems() as $page) { ?>
+     <li class="level0"><a href="<?php echo $page->url ?>"><span><?php echo $page->menuTitle ?></span></a></li>
+<?php } ?>
+</ul>
+</div>
